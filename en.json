@@ -1,0 +1,109 @@
+{
+  "language": {
+    "choose": "🌐 Please choose your language:",
+    "changed": "✅ Language updated successfully.",
+    "fa": "🇮🇷 فارسی",
+    "en": "🇬🇧 English"
+  },
+  "welcome": {
+    "main": "<b>PLM - Penalty League Mobin</b>\nWelcome to the luxury penalty competition bot. Choose an option:"
+  },
+  "menu": {
+    "join": "⚽ Join Competition",
+    "guide": "📘 Guide",
+    "rules": "📜 Rules",
+    "ranking": "🏆 Leaderboard",
+    "language": "🌐 Language",
+    "support": "🛟 Support"
+  },
+  "pages": {
+    "guide": "📘 <b>Guide</b>\n1) Join and register your profile.\n2) Wait for admin to assign matches.\n3) In each round choose your direction quickly and only once.\n4) Results and leaderboard are generated automatically.",
+    "rules": "📜 <b>Rules</b>\n• Matches are 3 or 5 rounds.\n• Roles switch automatically every round.\n• Valid directions: Left, Center, Right.\n• One direction submit per player per round.\n• Round result is confirmed by admin (Goal/Save/Out).",
+    "support": "🛟 Support: {support}"
+  },
+  "register": {
+    "ask_name": "🧾 Enter your full name:",
+    "ask_country": "🌍 Enter your country:",
+    "invalid_name": "❌ Invalid name. Please enter 2-40 valid characters.",
+    "invalid_country": "❌ Invalid country. Please enter 2-40 valid characters.",
+    "duplicate": "⚠️ You are already registered.",
+    "success": "✅ Registration completed successfully."
+  },
+  "directions": {
+    "left": "⬅️ Left",
+    "center": "⏺ Center",
+    "right": "➡️ Right"
+  },
+  "results": {
+    "goal": "🟢 Goal",
+    "save": "🔴 Save",
+    "out": "⚪ Out"
+  },
+  "match": {
+    "no_active": "ℹ️ You are not in an active match right now.",
+    "already_selected": "⏳ You already selected your direction for this round.",
+    "choose_direction": "🎯 Round {round_no} | Role: <b>{role}</b>\nSelect your direction:",
+    "role_shooter": "Shooter",
+    "role_keeper": "Goalkeeper",
+    "direction_saved": "✅ Direction submitted successfully.",
+    "direction_rejected": "❌ Unable to save direction (already set or invalid round).",
+    "round_start_shooter": "⚽ Round {round_no} started. You are the SHOOTER. Submit your direction.",
+    "round_start_keeper": "🧤 Round {round_no} started. You are the GOALKEEPER. Submit your direction.",
+    "round_result": "📢 Round {round_no} result: <b>{result}</b>\nScore: {score1} - {score2}",
+    "final_result": "🏁 Match finished!\nFinal score: <b>{score1} - {score2}</b>\nWinner: <b>{winner}</b>"
+  },
+  "ranking": {
+    "title": "🏆 <b>Leaderboard</b>",
+    "empty": "No ranking data yet.",
+    "line": "{idx}) {name} | Pts:{points} | MP:{played} W:{win} D:{draw} L:{loss} GD:{gd}"
+  },
+  "admin": {
+    "panel_title": "👑 <b>Admin Panel</b>",
+    "create_match": "➕ Create Match",
+    "active_matches": "🎯 Active Matches",
+    "manage_players": "👥 Manage Players",
+    "stats": "📊 Stats",
+    "ranking": "🏆 Leaderboard",
+    "broadcast": "📣 Broadcast",
+    "settings": "⚙️ Settings",
+    "delete_match": "🗑 Delete Match",
+    "rounds_3": "3 Rounds",
+    "rounds_5": "5 Rounds",
+    "select_rounds": "Select match rounds:",
+    "not_enough_players": "At least 2 registered players are required.",
+    "select_player1": "Select Player 1:",
+    "select_player2": "Select Player 2:",
+    "same_player_error": "❌ Player 1 and Player 2 cannot be the same.",
+    "match_created": "✅ Match #{match_id} created with {rounds} rounds.",
+    "no_active_matches": "No active matches.",
+    "active_matches_title": "🎯 Active Matches",
+    "active_match_line": "• Match #{match_id} | Round {round_now}/{rounds} | Score {score1}-{score2}",
+    "no_players": "No registered players.",
+    "players_title": "👥 Registered Players",
+    "player_line": "ID:{id} | {name} | {username} | {country}",
+    "stats_text": "📊 Overview\nUsers: {users}\nRegistered: {registered}\nActive Matches: {active}\nFinished Matches: {finished}",
+    "settings_text": "⚙️ Settings\nSupport: {support}",
+    "select_match_delete": "Select a match to delete:",
+    "match_deleted": "🗑 Match #{match_id} deleted.",
+    "round_ready": "🧠 Round decision required\nMatch #{match_id} | Round {round_no}\nShooter: {shooter} ({shooter_dir})\nKeeper: {keeper} ({keeper_dir})",
+    "result_rejected": "Result already set or invalid request.",
+    "match_finished": "🏁 Match #{match_id} finished.",
+    "result_saved_next_round": "✅ Result saved. Next round started for players."
+  },
+  "broadcast": {
+    "select_target": "Select broadcast target:",
+    "fa": "🇮🇷 Persian users",
+    "en": "🇬🇧 English users",
+    "all": "🌍 All users",
+    "ask_message": "Send the broadcast message now:",
+    "empty": "Message cannot be empty.",
+    "done": "✅ Broadcast completed. Sent: {sent} | Failed: {failed}"
+  },
+  "errors": {
+    "generic": "⚠️ An unexpected error happened. Please try again.",
+    "not_admin": "⛔ You do not have admin access."
+  },
+  "common": {
+    "match": "Match"
+  }
+}
